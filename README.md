@@ -1,6 +1,7 @@
 # Indonesian Twitter Cyberbullying Detection
 A machine learning project for detecting and classifying cyberbullying in Indonesian social media text.
 
+## Project Background and Overview
 The rapid growth of social media usage has increased the amount of user-generated content in Indonesian. Among this content, cyberbullying can appear in various forms, including abusive language, sexual harassment, hate speech, and body shaming.
 
 Identifying cyberbullying manually is difficult and time-consuming, especially when dealing with large volumes of short and informal social media texts. Indonesian social media text also presents additional challenges due to slang, informal language, abbreviations, and contextual meaning.
