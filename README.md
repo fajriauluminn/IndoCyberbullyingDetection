@@ -10,7 +10,7 @@ Identifying cyberbullying manually is difficult and time-consuming, especially w
 
 Therefore, this project aims to develop a machine learning model that can automatically detect and classify cyberbullying in Indonesian social media text using a hybrid **IndoBERTweet-BiGRU** architecture. IndoBERTweet is used to capture contextual representations of Indonesian social media text, while Bidirectional GRU (BiGRU) is used to capture sequential information from the resulting representations.
 
-The project covers the complete machine learning pipeline, including data preparation, text preprocessing, automated labeling, model training, experimentation, and evaluation.
+The project covers the complete machine learning pipeline, including data preparation, text preprocessing, automated labeling, model training, experimentation, evaluation. The resulting model is also implemented in the [FrienTweet website](https://github.com/fajriauluminn/FrienTweet).
 
 ---
 
