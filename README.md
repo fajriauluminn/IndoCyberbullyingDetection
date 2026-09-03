@@ -47,10 +47,9 @@ Text preprocessing is performed to prepare Indonesian social media text for mode
 
 The preprocessing pipeline includes:
 
-- Removing URLs
-- Removing mentions
-- Removing hashtags
-- Removing emojis
+- Removing URLs, hashtag, emojis, punctuations and symbols
+- Handling duplicates and missing values
+- Word stemming and normalize steps are skipped because IndoBERTweet is expected to handle those problems
 
 ## Automated Data Labeling
 
@@ -69,3 +68,4 @@ The dataset contains five classification categories:
 - Hate Speech
 - Body Shaming
 - Non-Cyberbullying
+![Label Distribution](assets/label_distribution.png)
