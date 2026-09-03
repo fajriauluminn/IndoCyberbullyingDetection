@@ -68,4 +68,21 @@ The dataset contains five classification categories:
 - Hate Speech
 - Body Shaming
 - Non-Cyberbullying
-![Label Distribution](assets/label_distribution.png)
+<img src="assets/label_distribution.png" width="700">
+
+### Imbalance Handling
+Since the label distribution showed an indicate that it's high imbalanced, Focal Loss was adopted to handle the imbalance of the data.
+
+### Modeling
+![WorkFlow Modeling]
+| Hyperparameter | Value |
+|---|---:|
+| Batch Size | 16 |
+| BiGRU Hidden Size | 128 |
+| Dropout Rate | 0.3 |
+| Epochs | 4 |
+| Gamma (Focal Loss) | 2.0 |
+| Learning Rate | 2e-5 |
+
+### Evaluation
+
